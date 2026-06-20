@@ -1,0 +1,6 @@
+from __init__ import StartServer
+
+app = StartServer()
+
+if __name__ == "__main__":
+    app.run(debug=True)
